@@ -1,0 +1,368 @@
+<!DOSTUPE>
+<html>
+<head>
+    <title> Скрипты</title>
+</head>
+
+<body>
+
+    <h1> Задание 1</h1>
+
+    <button onclick="functionClick1()"> Задание 1 </button>
+    <script language="JavaScript">
+        function functionClick1() {
+
+            var yourName = prompt("Введите ваше имя");
+            alert(yourName.length);
+        }
+
+
+
+    </script>
+
+
+    <h1> Задание 2</h1>
+
+    <button onclick="functionClick2()"> Задание 2 </button>
+    <script language="JavaScript">
+        function functionClick2() {
+
+            var num1 = 3, num2 = 5, sum = num1 + num2;
+            alert(sum);
+        }
+
+
+
+    </script>
+
+
+    <h1> Задание 3</h1>
+
+    <button onclick="functionClick3()"> Задание 3 </button>
+    <script language="JavaScript">
+        function functionClick3() {
+
+            var num1 = 16, num2 = 2, del = num1 / num2;
+            confirm(del);
+        }
+
+
+
+    </script>
+
+
+    <h1> Задание 4</h1>
+
+    <button onclick="functionClick4()"> Задание 4 </button>
+    <script language="JavaScript">
+        function functionClick4() {
+
+            var age = Number(prompt('Введите ваш возраст'));
+            console.log(age)
+        }
+
+
+
+    </script>
+
+    <h1> Задание 5</h1>
+
+    <button onclick="promt5 ()"> Задание 5 </button>
+    <script language="JavaScript">
+        function promt5() {
+
+            let str = prompt('Введите слово');
+            console.log(str.substring(1, 3));
+
+        }
+
+
+
+    </script>
+
+    <h1> Задание 6</h1>
+
+    <button onclick="promt6 ()"> Задание 6 </button>
+    <script language="JavaScript">
+        function promt6() {
+
+            var name1 = prompt('Имя');
+            var age1 = Number(prompt('возраст'));
+            var name2 = prompt('Имя');
+            var age2 = Number(prompt('возраст'));
+            if (age1 < age2)
+                alert(name2);
+            else alert(name1);
+        }
+    </script>
+    <h1> Задание 7</h1>
+
+    <button onclick="promt7 ()"> Задание 7 </button>
+    <script language="JavaScript">
+        function promt7() {
+
+            let age = Number(prompt('возраст'));
+            if (age < 12)
+                alert('Сиди дома');
+            else alert('Вперед за билетами');
+
+        }
+
+
+
+    </script>
+    <h1> Задание 8</h1>
+
+    <button onclick="promt8 ()"> Задание 8 </button>
+    <script language="JavaScript">
+        function promt8() {
+
+            let num = Number(prompt('Введите число'));
+            alert(Math.pow(num, 2))
+
+
+        }
+
+
+
+    </script>
+
+    <h1> Задание 9</h1>
+    <button onclick="promt9 ()"> Задание 9</button>
+    <script language="JavaScript">
+        function promt9() {
+
+            var name = prompt('Ввeдите имя');
+            alert("привет", name);
+
+
+        }
+
+
+
+    </script>
+
+    <h1> Задание 10</h1>
+    <button onclick="promt10 ()">  Задание 10 </button>
+    <script language="JavaScript">
+        function promt10() {
+
+            var num = prompt('Ввeдите число');
+            if (num % 4 == 0)
+                alert("Выражение истинно");
+            else
+                alert("Выражение ложно");
+
+        }
+
+
+
+    </script>
+
+    <h1> Задание 11</h1>
+    <button onclick="promt11 ()">  Задание 11 </button>
+    <script language="JavaScript">
+        function promt11() {
+
+            var a = prompt('Ввeдите a');
+            var b = prompt('Ввeдите b');
+            alert(P(a, b));
+        }
+
+
+        function P(a, b) {
+
+            return (a + b) * 2
+
+        }
+    </script>
+
+    <h1> Задание 12</h1>
+    <button onclick="cicl12 ()">  Задание 12 </button>
+    <script language="JavaScript">
+        function cicl12() {
+
+            for (var i = 0; i <= 10; i++) {
+                console.log(i);
+            }
+
+        }
+
+
+
+    </script>
+
+    <h1> Задание 13</h1>
+    <button onclick="cicl13 ()">  Задание 13 </button>
+    <script language="JavaScript">
+        function cicl13() {
+
+            for (var i = 5; i <= 50; i += 5) {
+                console.log(i);
+            }
+
+        }
+
+
+
+    </script>
+
+    <h1> Задание 14</h1>
+    <button onclick="cicl14 ()">  Задание 14 </button>
+    <script language="JavaScript">
+        function cicl14() {
+            var i = 0;
+            while (i <= 10) {
+                console.log(i);
+                i++;
+            }
+
+        }
+
+    </script>
+
+    <h1> Задание 15</h1>
+    <button onclick="cicl15 ()">  Задание 15 </button>
+    <script language="JavaScript">
+        function cicl15() {
+            var i = 5;
+            while (i <= 50) {
+                console.log(i);
+                i += 5;
+            }
+
+        }
+
+
+
+    </script>
+
+    <h1> Задание 16</h1>
+    <button onclick="cicl16 ()">  Задание 16 </button>
+    <script language="JavaScript">
+        function cicl16() {
+
+            for (var i = 5; i >= 0; i--) {
+                if (i < 1)
+                    alert('Нас не задушишь, не убьешь');
+            }
+
+        }
+    </script>
+
+    <h1> Задание 17</h1>
+    <button onclick="promt17 ()"> Задание 17</button>
+    <script language="JavaScript">
+        function promt17() {
+
+            var name = prompt(' ');
+
+            switch (name) {
+                case 'яблоко': console.log('Ваш выбор ' + name + ' просто идеален');
+                case 'апельсин': console.log('Ваш выбор ' + name + ' просто идеален');
+                case 'сок': console.log('Ваш выбор ' + name + ' просто идеален');
+                case 'пиво': console.log('Ваш выбор ' + name + ' просто идеален');
+                default: console.log('Пошел прочь!');
+            }
+
+
+
+
+        }
+
+    </script>
+
+    <h1> Задание 18</h1>
+    <button onclick="promt18 ()"> Задание 18</button>
+    <script language="JavaScript">
+        function promt18() {
+
+            var a = [1, 2, 3, 4, 5];
+            alert(a[2]);
+
+        }
+
+    </script>
+
+    <h1> Задание 19</h1>
+    <button onclick="promt19 ()"> Задание 19</button>
+    <script language="JavaScript">
+        function promt19() {
+
+            var a = [1, 2, 3, 4, 5];
+            alert(a.length);
+
+        }
+
+    </script>
+
+    <h1> Задание 20</h1>
+    <button onclick="promt20 ()"> Задание 20</button>
+    <script language="JavaScript">
+        function promt20() {
+
+            var a = [1, 2, 3, 4, 5];
+            alert(a);
+
+        }
+
+    </script>
+
+    <h1> Задание 21</h1>
+    <button onclick="promt21 ()"> Задание 21</button>
+    <script language="JavaScript">
+        function promt21() {
+
+            var arr = new Array();
+            arr = [1, 2, [3, 3, 3], 4, 5]
+            alert(arr);
+        }
+
+    </script>
+
+    <h1> Задание 22</h1>
+    <button onclick="promt22 ()"> Задание 22</button>
+    <script language="JavaScript">
+        function promt22() {
+
+            var tel = {
+                name: "Вася ",
+                num: 11111111
+            };
+            alert(tel.name + tel.num);
+        }
+
+    </script>
+    <h1> Задание 23</h1>
+    <button onclick="promt23 ()"> Задание 23</button>
+    <script language="JavaScript">
+        function promt23() {
+
+            var empty = new Object();
+            empty = {
+                x: 1, y: 1, width: 100, height: 250, z: 3
+            };
+            for (var key in empty) {
+                alert(key);
+            }
+        }
+
+    </script>
+
+    <h1> Задание 24</h1>
+    <button onclick="promt24 ()"> Задание 24</button>
+    <script language="JavaScript">
+        function promt24() {
+
+            var empty = new Object();
+            empty = {
+                x: 1, y: 1, width: 100, height: 250, z: 3
+            };
+            for (var key in empty) {
+                alert(empty[key]);
+            }
+        }
+
+    </script>
+</body>
+</html >
